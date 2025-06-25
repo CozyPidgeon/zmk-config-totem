@@ -102,7 +102,8 @@ label= "SYM"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp CARET   &kp AMPS    &kp KP_MULTIPLY  &kp KP_MINUS    &kp KP_EQUAL       
+                &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp CARET   &kp AMPS    &kp KP_MULTIPLY  &kp KP_MINUS    &kp KP_EQUAL
+                &none       &none       &none       &none       &kp LT          &kp GT      &kp C_MUTE  &kp SQT     &kp DQT     &kp UNDERSCORE   
     &kp GRAVE   &none       &none       &none       &none       &none           &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT &kp BSLH    &kp PIPE         
                                         &none       &mo ADJ     &none           &none       &kp C_PP    &none      
                         >;
