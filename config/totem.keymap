@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp KP_N7     &kp KP_N8     &kp KP_N9    &kp KP_PLUS
-           &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mt RSHFT N4  &mt RCTRL N5  &mt RALT N6  &kp KP_MINUS
-&lccemail  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp KP_N1     &kp KP_N2     &kp KP_N3    &kp KP_MULTIPLY  &none
-                                  &none     &none      &none                   &mo ADJ                &kp KP_N0     &kp BSPC
+           &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp N7        &kp N8         &kp N9    &kp KP_PLUS
+           &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mt RSHFT N4  &mt RCTRL N5   &mt RALT N6  &kp KP_MINUS
+&lccemail  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N1        &kp N2            &kp N3    &kp KP_MULTIPLY  &none
+                                  &none     &none      &none                   &mo ADJ                &kp N0        &kp BSPC
             >;
         };
 
