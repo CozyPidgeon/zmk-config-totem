@@ -37,6 +37,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Enter {
+            bindings = <&kp RET>;
+            key-positions = <16 17 18>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -85,9 +94,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp N7        &kp N8         &kp N9       &kp PLUS
-           &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mt RSHFT N4  &mt RCTRL N5   &mt RALT N6  &kp MINUS
-&lccemail  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N1        &kp N2         &kp N3       &kp ASTRK  &none
+           &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp N7        &kp N8        &kp N9       &kp PLUS
+           &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mt RSHFT N4  &mt RCTRL N5  &mt RALT N6  &kp MINUS
+&lccemail  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N1        &kp N2        &kp N3       &kp ASTRK  &none
                                   &none     &none      &none                   &mo ADJ                &kp N0        &kp BSPC
             >;
         };
@@ -111,9 +120,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp EXCL  &kp AT  &kp HASH  &kp DLLR    &kp PRCNT    &kp CARET     &kp AMPS      &kp ASTRK        &kp MINUS     &kp EQUAL
-           &none     &none   &none     &kp LSHIFT  &none        &kp C_MUTE    &kp C_PP      &kp SQT          &kp DQT       &kp UNDERSCORE
-&kp GRAVE  &none     &none   &none     &none       &none        &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV       &kp C_NEXT    &kp BSLH        &kp PIPE
+           &kp EXCL  &kp AT  &kp HASH  &kp DLLR    &kp PRCNT    &kp CARET     &kp AMPS      &kp ASTRK   &kp MINUS   &kp EQUAL
+           &none     &none   &none     &kp LSHIFT  &none        &kp C_MUTE    &kp C_PP      &kp SQT     &kp DQT     &kp UNDERSCORE
+&kp GRAVE  &none     &none   &none     &none       &none        &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp BSLH        &kp PIPE
                              &none     &mo ADJ     &none        &none         &none         &none
             >;
         };
