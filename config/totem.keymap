@@ -44,6 +44,26 @@
             bindings = <&kp RET>;
             key-positions = <16 17 18>;
         };
+
+        Left_Hand_Tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <10 11>;
+        };
+
+        Right_Hand_Forward_Slash {
+            bindings = <&kp SLASH>;
+            key-positions = <19 18>;
+        };
+
+        Left_Hand_Tab {
+            bindings = <&kp TAB>;
+            key-positions = <12 13 11>;
+        };
+
+        LCCA_Email {
+            bindings = <&lccemail>;
+            key-positions = <14 13 12 11 10>;
+        };
     };
 
     keymap {
